@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mercado Vivo | Supermercado</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Pacifico&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+<header class="header">
+
+    <a href="#inicio" class="logo">
+        <span class="logo-icon">✦</span>
+
+        <div>
+            <strong>MERCADO</strong>
+            <small>VIVO</small>
+        </div>
+    </a>
+
+    <button class="menu-btn" id="menuBtn">☰</button>
+
+    <nav id="navMenu">
+        <a href="#inicio">Inicio</a>
+        <a href="#nosotros">Quiénes Somos</a>
+        <a href="#portafolio">Portafolio</a>
+        <a href="#productos">Productos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <div class="cart">
+        🛒 <span id="cartCount">0</span>
+    </div>
+
+</header>
+
+
+<!-- INICIO -->
+
+<section class="hero" id="inicio">
+
+    <div class="hero-text">
+
+        <span class="hero-label">FRESCO · CERCA · TODOS LOS DÍAS</span>
+
+        <h1>
+            Todo lo que
+            <span>necesitas.</span>
+        </h1>
+
+        <p>
+            Encuentra alimentos, bebidas, productos para tu hogar
+            y mucho más en un solo lugar.
+        </p>
+
+        <a href="#productos" class="hero-btn">
+            Ver productos →
+        </a>
+
+    </div>
+
+    <div class="hero-image">
+
+        <img
+            src="https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=1400&q=85"
+            alt="Frutas y verduras frescas"
+        >
+
+        <div class="floating-card">
+            <span>HOY</span>
+            <strong>Productos frescos</strong>
+            <small>Directamente para tu hogar</small>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- QUIÉNES SOMOS -->
+
+<section class="about" id="nosotros">
+
+    <div class="about-title">
+
+        <span>01 — QUIÉNES SOMOS</span>
+
+        <h2>
+            Un mercado
+            <strong>para todos.</strong>
+        </h2>
+
+    </div>
+
+    <div class="about-content">
+
+        <p>
+            En Mercado Vivo creemos que hacer las compras puede ser
+            fácil, rápido y agradable.
+        </p>
+
+        <p>
+            Trabajamos para ofrecer productos variados y espacios
+            organizados donde cada persona pueda encontrar lo que busca.
+        </p>
+
+        <div class="values">
+
+            <div>
+                <b>01</b>
+                <span>Calidad</span>
+            </div>
+
+            <div>
+                <b>02</b>
+                <span>Variedad</span>
+            </div>
+
+            <div>
+                <b>03</b>
+                <span>Cercanía</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- PORTAFOLIO -->
+
+<section class="portfolio" id="portafolio">
+
+    <div class="section-top">
+
+        <div>
+            <span>02 — PORTAFOLIO</span>
+            <h2>Nuestras <em>secciones</em></h2>
+        </div>
+
+        <p>
+            Diferentes espacios para encontrar todo lo necesario
+            para tu día a día.
+        </p>
+
+    </div>
+
+
+    <div class="category-grid">
+
+        <article class="category category-big">
+
+            <img
+                src="https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=1200&q=85"
+                alt="Frutas y verduras"
+            >
+
+            <div>
+                <span>01</span>
+                <h3>Frutas & verduras</h3>
+            </div>
+
+        </article>
+
+
+        <article class="category">
+
+            <img
+                src="https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=900&q=85"
+                alt="Panadería"
+            >
+
+            <div>
+                <span>02</span>
+                <h3>Panadería</h3>
+            </div>
+
+        </article>
+
+
+        <article class="category">
+
+            <img
+                src="https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&w=900&q=85"
+                alt="Productos lácteos"
+            >
+
+            <div>
+                <span>03</span>
+                <h3>Lácteos</h3>
+            </div>
+
+        </article>
+
+
+        <article class="category">
+
+            <img
+                src="https://images.unsplash.com/photo-1604719312566-8912e9227c6a?auto=format&fit=crop&w=900&q=85"
+                alt="Productos de supermercado"
+            >
+
+            <div>
+                <span>04</span>
+                <h3>Despensa</h3>
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- PRODUCTOS -->
+
+<section class="products" id="productos">
+
+    <div class="products-heading">
+
+        <span>03 — PRODUCTOS</span>
+
+        <h2>Elige tus <em>favoritos.</em></h2>
+
+        <p>
+            Productos seleccionados para acompañarte en cada momento.
+        </p>
+
+    </div>
+
+
+    <div class="product-grid">
+
+
+        <!-- PRODUCTO 1 -->
+
+        <article class="product">
+
+            <div class="product-image">
+
+                <span class="tag">FRESCO</span>
+
+                <img
+                    src="https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?auto=format&fit=crop&w=800&q=85"
+                    alt="Manzanas"
+                >
+
+            </div>
+
+            <div class="product-info">
+
+                <small>FRUTAS</small>
+
+                <h3>Manzanas</h3>
+
+                <p>Fruta fresca seleccionada.</p>
+
+                <div class="product-bottom">
+
+                    <strong>$5.900</strong>
+
+                    <button class="add-btn">
+                        + Añadir
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- PRODUCTO 2 -->
+
+        <article class="product">
+
+            <div class="product-image">
+
+                <span class="tag">POPULAR</span>
+
+                <img
+                    src="https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&w=800&q=85"
+                    alt="Leche"
+                >
+
+            </div>
+
+            <div class="product-info">
+
+                <small>LÁCTEOS</small>
+
+                <h3>Leche</h3>
+
+                <p>Leche para toda la familia.</p>
+
+                <div class="product-bottom">
+
+                    <strong>$4.800</strong>
+
+                    <button class="add-btn">
+                        + Añadir
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- PRODUCTO 3 -->
+
+        <article class="product">
+
+            <div class="product-image">
+
+                <span class="tag">NUEVO</span>
+
+                <img
+                    src="https://images.unsplash.com/photo-1586444248902-2f64eddc13df?auto=format&fit=crop&w=800&q=85"
+                    alt="Pan"
+                >
+
+            </div>
+
+            <div class="product-info">
+
+                <small>PANADERÍA</small>
+
+                <h3>Pan artesanal</h3>
+
+                <p>Recién horneado cada día.</p>
+
+                <div class="product-bottom">
+
+                    <strong>$3.500</strong>
+
+                    <button class="add-btn">
+                        + Añadir
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- PRODUCTO 4 -->
+
+        <article class="product">
+
+            <div class="product-image">
+
+                <span class="tag">FAVORITO</span>
+
+                <img
+                    src="https://images.unsplash.com/photo-1621939514649-280e2aa6e1f1?auto=format&fit=crop&w=800&q=85"
+                    alt="Chocolate"
+                >
+
+            </div>
+
+            <div class="product-info">
+
+                <small>ANTOJOS</small>
+
+                <h3>Chocolate</h3>
+
+                <p>Un pequeño gusto para cualquier momento.</p>
+
+                <div class="product-bottom">
+
+                    <strong>$6.200</strong>
+
+                    <button class="add-btn">
+                        + Añadir
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- PRODUCTO 5 -->
+
+        <article class="product">
+
+            <div class="product-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1543168256-418811576931?auto=format&fit=crop&w=800&q=85"
+                    alt="Café"
+                >
+
+            </div>
+
+            <div class="product-info">
+
+                <small>BEBIDAS</small>
+
+                <h3>Café</h3>
+
+                <p>Café para comenzar bien el día.</p>
+
+                <div class="product-bottom">
+
+                    <strong>$8.900</strong>
+
+                    <button class="add-btn">
+                        + Añadir
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- PRODUCTO 6 -->
+
+        <article class="product">
+
+            <div class="product-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?auto=format&fit=crop&w=800&q=85"
+                    alt="Pasta"
+                >
+
+            </div>
+
+            <div class="product-info">
+
+                <small>DESPENSA</small>
+
+                <h3>Pasta</h3>
+
+                <p>Una opción práctica para tus comidas.</p>
+
+                <div class="product-bottom">
+
+                    <strong>$4.200</strong>
+
+                    <button class="add-btn">
+                        + Añadir
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- BANNER -->
+
+<section class="banner">
+
+    <div class="banner-image">
+
+        <img
+            src="https://images.unsplash.com/photo-1601598851547-4302969d4d7b?auto=format&fit=crop&w=1800&q=85"
+            alt="Compras de supermercado"
+        >
+
+    </div>
+
+    <div class="banner-text">
+
+        <span>PARA TU DÍA A DÍA</span>
+
+        <h2>
+            Comprar también
+            puede ser <em>simple.</em>
+        </h2>
+
+        <a href="#productos">Explorar productos →</a>
+
+    </div>
+
+</section>
+
+
+<!-- CONTACTO -->
+
+<section class="contact" id="contacto">
+
+    <div class="contact-info">
+
+        <span>04 — CONTACTO</span>
+
+        <h2>
+            Estamos
+            <em>cerca.</em>
+        </h2>
+
+        <p>
+            ¿Tienes alguna pregunta, sugerencia o comentario?
+            Queremos escucharte.
+        </p>
+
+        <div class="contact-details">
+
+            <div>
+                <b>📍 Ubicación</b>
+                <span>Pitalito, Huila, Colombia</span>
+            </div>
+
+            <div>
+                <b>☎ Teléfono</b>
+                <span>+57 300 000 0000</span>
+            </div>
+
+            <div>
+                <b>✉ Correo</b>
+                <span>contacto@mercadovivo.com</span>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <form id="contactForm">
+
+        <h3>Escríbenos</h3>
+
+        <input
+            type="text"
+            id="nombre"
+            placeholder="Nombre completo"
+        >
+
+        <input
+            type="email"
+            id="correo"
+            placeholder="Correo electrónico"
+        >
+
+        <textarea
+            id="mensaje"
+            rows="5"
+            placeholder="Escribe tu mensaje..."
+        ></textarea>
+
+        <button type="submit">
+            Enviar mensaje
+        </button>
+
+        <p id="formMessage"></p>
+
+    </form>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+    <div class="footer-logo">
+
+        <span class="logo-icon">✦</span>
+
+        <div>
+            <strong>MERCADO VIVO</strong>
+            <small>SUPERMERCADO</small>
+        </div>
+
+    </div>
+
+    <p>
+        Calidad, variedad y productos para todos.
+    </p>
+
+    <span>
+        © <span id="year"></span> Mercado Vivo
+    </span>
+
+</footer>
+
+
+<script src="./java.js"></script>
+
+</body>
+</html>
